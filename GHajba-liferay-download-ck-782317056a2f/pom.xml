@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>hu.japy.dev</groupId>
+    <artifactId>ckeditor-hook</artifactId>
+    <packaging>war</packaging>
+    <version>0.1-SNAPSHOT</version>
+
+    <name>CKEditor Liferay Hook</name>
+    <description>A simple Liferay hook to extend and modify the features of the integrated CKEditor</description>
+
+    <contributors>
+        <contributor>
+            <name>Gabor Laszlo Hajba</name>
+            <email>hajbag@gmail.com</email>
+            <organization>JaPy Szoftver Kft</organization>
+            <organizationUrl>http://japy.hu</organizationUrl>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <url>http://hahamo.biz</url>
+        </contributor>
+    </contributors>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.liferay.maven.plugins</groupId>
+                <artifactId>liferay-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
